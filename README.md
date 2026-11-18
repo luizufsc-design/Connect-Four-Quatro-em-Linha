@@ -13,3 +13,16 @@ Trabalho prático desenvolvido para a disciplina de Introdução à Ciência da 
 3. Execute o script principal através do terminal:
    ```bash
    python connect_four.py
+
+ Relato de Uso do GitHub Copilot:
+
+O GitHub Copilot foi utilizado como assistente de inteligência artificial durante o desenvolvimento da Tarefa 01 (Connect Four) para auxiliar nas seguintes etapas:
+
+1\. Sugestão e estruturação inicial da matriz do tabuleiro e constantes do jogo.
+
+2\. Apoio na implementação da lógica de gravidade (inserção de peças na linha mais baixa disponível da coluna).
+
+3\. Auxílio na criação das verificações algorítmicas de vitória (horizontal, vertical e diagonais) e detecção de empate.
+
+4\. Suporte na montagem do layout interativo utilizando a biblioteca FreeSimpleGUI.
+  
