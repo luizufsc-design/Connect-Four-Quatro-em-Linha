@@ -14,3 +14,12 @@ def criar_tabuleiro():
     """Cria um tabuleiro 6x7 inicialmente vazio."""
     return [[VAZIO for _ in range(COLUNAS)] for _ in range(LINHAS)]
 
+# Regra de Gravidade
+
+def aplicar_jogada(tabuleiro, coluna, jogador):
+    """Aplica a regra de gravidade: insere a peça na linha mais baixa disponível da coluna."""
+    for linha in range(LINHAS - 1, -1, -1):
+        if tabuleiro[linha][coluna] == VAZIO:
+            tabuleiro[linha][coluna] = jogador
+            return linha, "continua"
+    return None, "coluna_cheia"
